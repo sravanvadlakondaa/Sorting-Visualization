@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithms Visualization</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        
+        .example-container {
+            margin-top: 20px;
+            text-align: left;
+            font-size: 16px;
+            font-family: Arial, sans-serif;
+        }
+        .example-array {
+            font-size: 18px;
+            font-weight: bold;
+            color: #4CAF50;
+        }
+        .sorting-description {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+        .sorting-explanation {
+            margin-top: 15px;
+            font-size: 16px;
+            line-height: 1.6;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sorting Algorithms Visualization</h1> <br><br><br><br><br>
+    <div id="array-container"></div>
+    <div class="buttons">
+        <button onclick="startBubbleSort()">Bubble Sort</button>
+        <button onclick="startInsertionSort()">Insertion Sort</button>
+        <button onclick="startSelectionSort()">Selection Sort</button>
+        <button onclick="startMergeSort()">Merge Sort</button>
+        <button onclick="startQuickSort()">Quick Sort</button>
+        <button onclick="startHeapSort()">Heap Sort</button>
+        <button onclick="startCocktailSort()">Cocktail Sort</button>
+        <button onclick="startGnomeSort()">Gnome Sort</button>
+    </div>
+    
+    <div class="example-container">
+        <p>Example Array: <span class="example-array">[2, 5, 4, 7, 5]</span></p>
+        <p class="sorting-description">This array will be used to visualize the sorting algorithms.</p>
+        <p class="sorting-description">Each algorithm will reorder the array from unsorted to sorted form.</p>
+        
+        
+        <div class="sorting-explanation">
+            <h3>Sorting Algorithm Explanation</h3>
+            <p><strong>Bubble Sort:</strong> Bubble Sort repeatedly steps through the list, compares adjacent elements, and swaps them if they are in the wrong order. This process is repeated until the list is sorted.</p>
+            <p><strong>Insertion Sort:</strong> Insertion Sort builds the sorted array one element at a time. It takes one element at a time and places it in the correct position among the previously sorted elements.</p>
+            <p><strong>Selection Sort:</strong> Selection Sort works by repeatedly finding the minimum element from the unsorted part of the list and swapping it with the first unsorted element.</p>
+            <p><strong>Merge Sort:</strong> Merge Sort divides the array into two halves, sorts each half recursively, and then merges the two sorted halves together in order.</p>
+            <p><strong>Quick Sort:</strong> Quick Sort picks a pivot element and partitions the array into two sub-arrays. The pivot is placed in its correct position, and the process is repeated for the left and right sub-arrays.</p>
+            <p><strong>Heap Sort:</strong> Heap Sort builds a max-heap from the array and then repeatedly extracts the maximum element to sort the array.</p>
+            <p><strong>Cocktail Sort:</strong> Cocktail Sort is a variation of Bubble Sort. It moves in both directions across the array, sorting elements in each pass and shrinking the range of unsorted elements after each pass.</p>
+            <p><strong>Gnome Sort:</strong> Gnome Sort works by comparing an element with the previous element and moving it back if it's in the wrong order. If it's in the right order, the algorithm moves forward.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
