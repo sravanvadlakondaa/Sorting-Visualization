@@ -1,31 +1,31 @@
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    background-image: url('s.webp'); /* Replace with your image URL */
-    background-size: cover; /* Ensure the image covers the entire page */
-    background-position: center; /* Center the image */
-    background-attachment: fixed; /* Make the background fixed while scrolling */
+    background-image: url('s.webp'); 
+    background-size: cover; 
+    background-position: center; 
+    background-attachment: fixed; 
     height: 100vh;
-    margin: 0; /* Remove default margin */
+    margin: 0; 
 }
 *{
     color:white;
 }
 
-/* Attractive Heading Style */
+
 h1 {
     font-size: 3rem;
-    color: white; /* Text color */
+    color: white; 
     padding: 20px;
-    margin-top: 50px; /* Space from the top */
-    background: linear-gradient(135deg, #ff6347, #8a2be2, #ff1493); /* Gradient background */
-    border: 5px solid #ff7f50; /* Border color */
-    border-radius: 15px; /* Rounded corners for the border */
+    margin-top: 50px; 
+    background: linear-gradient(135deg, #ff6347, #8a2be2, #ff1493); 
+    border: 5px solid #ff7f50; 
+    border-radius: 15px; 
     display: inline-block;
-    white-space: nowrap; /* Prevent the title from wrapping */
+    white-space: nowrap; 
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Optional: shadow for a glowing effect */
-    /* Removed scrolling animation from h1 */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    
     position: fixed;
     top:5px;
     left:50px;
